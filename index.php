@@ -8,17 +8,17 @@
 </head>
 <body>
  <?php
-$temperature = 2700
+$temperature = 2800;
 
 if($temperature > 2700 ) {
     echo "Zakoupil jste si AK47";
  } elseif($temperature < 2700 ) {
      echo "Nemáte dostatek peněz na AK47 tak jste si zakoupil Desert eagle a vestu";
  } else {
-     echo "Nemáte dostatek peněz na jakoukoliv zbraň proto vám zůstane pouze nůž"
+     echo "Nemáte dostatek peněz na jakoukoliv zbraň proto vám zůstane pouze nůž";
  }
 
-
+?>
 
 
 </body>
