@@ -8,14 +8,14 @@
 </head>
 <body>
  <?php
-$temperature = 0;
+$money = 0;
 
-if($temperature > 2700 ) {
+if($money > 2700 ) {
     echo "Zakoupil jste si AK47";
- } elseif($temperature < 2700) {
+ } elseif($money < 2700) {
      echo "Nemáte dostatek peněz na AK47 tak jste si zakoupil Desert eagle a vestu";
  } else {
-  echo "Váš zůstatek je : $temperature = Nemůžete si nic zakoupit ";
+  echo "Váš zůstatek je : $money = Nemůžete si nic zakoupit ";
 } 
    
 ?>
